@@ -26,9 +26,9 @@ Download from Docker Hub -> Get Docker -> Double-click Docker for Windows Instal
 
 3.Install Docker: sudo yum install docker-engine -y.
 
-# 2. Download this project
-Git clone 
-
 4.Start Docker: sudo service docker start.
 
 5.Verify Docker: sudo docker run hello-world
+
+# 2. Download this project
+Git clone 
