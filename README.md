@@ -38,9 +38,9 @@ Git clone https://github.com/FhshTim/ptt_crawler.git
 
 2.open cmd
 
-` docker image build -t docker_pttcrawler . `
+`` docker image build -t docker_pttcrawler . ``
 
-` docker run -ti docker_pttcrawler `
+`` docker run -ti docker_pttcrawler ``
 
 ## _**ENJOY!!**_
 
