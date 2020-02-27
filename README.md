@@ -1,2 +1,34 @@
 # ptt_crawler
-ptt web crawler
+
+This project is a ptt web crawler that can specify the post date range.
+Store the required data in the database, skip the fetch if the captured URL is encountered to avoid wasting resources.
+
+
+# 1. Docker Install
+
+
+# windows:
+https://docs.docker.com/docker-for-windows/install/
+
+Download from Docker Hub -> Get Docker -> Double-click Docker for Windows Install to run the installer.
+
+1.restart
+
+2.Run docker version to check the version.
+
+3.Run docker run hello-world to verify that Docker can pull and run images.
+
+
+# Linux:
+1.Log into your system as a user with sudo privileges.
+
+2.Update your system: sudo yum update -y
+
+3.Install Docker: sudo yum install docker-engine -y.
+
+# 2. Download this project
+Git clone 
+
+4.Start Docker: sudo service docker start.
+
+5.Verify Docker: sudo docker run hello-world
