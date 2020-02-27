@@ -31,4 +31,19 @@ Download from Docker Hub -> Get Docker -> Double-click Docker for Windows Instal
 5.Verify Docker: sudo docker run hello-world
 
 # 2. Download this project
-Git clone 
+Git clone https://github.com/FhshTim/ptt_crawler.git
+
+# 3. Run the PTT crawler project
+1.open the folder where the project folder is.
+
+2.open cmd
+
+--> docker image build -t docker_pttcrawler .
+
+--> docker run -ti docker_pttcrawler
+
+## ENJOY!!
+
+
+
+
